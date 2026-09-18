@@ -1,85 +1,97 @@
-HR Analytics Dashboard | Power BI
+HR_Analytics_Dashboard
 
-Project Overview
+An interactive Power BI dashboard analyzing employee attrition, workforce distribution, salary slabs, job roles, satisfaction levels, gender, experience, and departmental employee counts.
 
-An interactive HR Analytics dashboard built in Microsoft Power BI to analyze employee attrition, workforce demographics, salary slabs, job roles, satisfaction levels, and departmental employee counts.
+📊 HR Analytics Dashboard | Power BI Project
 
-Dashboard Preview
+An interactive HR analytics solution designed to provide a clear view of employee attrition patterns and workforce distribution across departments, salary ranges, job roles, satisfaction levels, gender, and total experience.
+
+📌 Project Overview
+
+Understanding employee attrition and workforce patterns is important for HR teams to identify areas that may require further analysis and support data-driven workforce decisions.
+
+This project transforms HR data into an interactive Power BI dashboard featuring KPI cards, department and age-group slicers, and multiple visualizations for analyzing attrition and employee distribution.
+
+🖼️ Dashboard Preview
+
+HR_Analytics_Dashboard.png
 
 
 
-Key KPIs
+📈 Key Business Insights
 
-Total Employees: 1.4K
+Workforce Scale: The dashboard covers approximately 1.4K total employees, with around 1.2K active employees.
 
-Active Employees: 1.2K
+Attrition: The dashboard shows 230 attrition cases and an overall 19.3% attrition rate.
 
-Attrition Count: 230
+Department Distribution: Research & Development represents the largest employee group with 924 employees, followed by Sales with 437 and Human Resources with 62.
 
-Attrition Rate: 19.3%
+Department Attrition: Attrition is distributed across Research & Development (55.22%), Sales (39.57%), and Human Resources (5.22%).
 
-Average Age: 36.92
+Gender Distribution: The dashboard shows attrition distribution of 63.48% Male and 36.52% Female.
 
-Average Experience: 7.04 years
+Workforce Profile: The displayed average age is 36.92 years, while average experience is 7.04 years.
 
-Dashboard Analysis
+🛠️ Technical Architecture & Workflow
 
-The dashboard provides analysis of:
+1. Data Preparation & Transformation
 
-Attrition Count by Department
+Prepared HR data for analysis and reporting.
 
-Attrition by Salary Slab
+Used Power Query for data transformation and preparation.
 
-Attrition by Job Role and Satisfaction Rating
+Structured fields required for employee, attrition, department, salary, experience, and satisfaction analysis.
 
-Attrition by Gender
+2. Power BI & DAX
 
-Attrition by Total Experience
+Created KPI measures for Total Employees, Active Employees, Attrition Count, Attrition %, Average Age, and Average Experience.
 
-Employee Count by Department
+Used DAX measures to support dashboard calculations and analysis.
 
-Tools & Technologies
+Applied interactive filtering through Department and Age Group slicers.
 
-Microsoft Power BI
+3. Visual UI/UX Design
 
-Power Query – Data cleaning and transformation
+Designed a clean, professional HR analytics dashboard.
 
-DAX – Measures and KPI calculations
+Used KPI cards for quick business-level metrics.
 
-Data Visualization – Interactive charts, tables, and slicers
+Incorporated donut charts, bar charts, a matrix, and an experience-based trend visual.
 
-Interactive Features
+Added interactive slicers and cross-filtering to support data exploration.
 
-Department slicer
-
-Age Group slicer
-
-KPI cards
-
-Interactive charts and tables
-
-Cross-filtering between visuals
-
-Project Structure
+📂 Repository Structure
 
 HR_analytics/
 │
 ├── DASHBOARD/
-│   └── HR_Analytics_Dashboard.pbix
+│   └── HR_Analytics_Dashboard.pbix       # Power BI Desktop report file
 │
 ├── DATA/
-│   └── HR_Analytics_Data.xlsx
+│   └── HR_Analytics_Data.xlsx             # HR dataset
 │
 ├── IMAGE/
-│   └── HR_Analytics_Dashboard.png
+│   └── HR_Analytics_Dashboard.png        # Dashboard screenshot
 │
-└── README.md
+└── README.md                              # Project documentation
 
-Purpose
+🔧 Tools & Technologies
 
-The goal of this project is to transform HR data into an interactive dashboard that helps users understand employee attrition patterns and workforce distribution across different business dimensions.
+Microsoft Power BI
 
-Author
+Power Query
+
+DAX
+
+Data Visualization
+
+Data Analysis
+
+🎯 Project Objective
+
+The objective of this project is to transform HR data into an interactive dashboard that helps users analyze employee attrition and understand workforce distribution across key HR dimensions.
+
+👤 Author
 
 Vishal Ghanwat
 
