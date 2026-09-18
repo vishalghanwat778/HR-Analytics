@@ -14,7 +14,7 @@ This project transforms HR data into an interactive Power BI dashboard featuring
 
 🖼️ Dashboard Preview
 
-![HR-Analytics](IMAGE/HR_Analytics.png)
+![IMAGE](HR_Analytics_Dashboard.png)
 
 
 📈 Key Business Insights
