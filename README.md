@@ -1,8 +1,8 @@
-HR_Analytics_Dashboard
+HR_Analytics
 
 An interactive Power BI dashboard analyzing employee attrition, workforce distribution, salary slabs, job roles, satisfaction levels, gender, experience, and departmental employee counts.
 
-📊 HR Analytics Dashboard | Power BI Project
+📊 HR Analytics | Power BI Project
 
 An interactive HR analytics solution designed to provide a clear view of employee attrition patterns and workforce distribution across departments, salary ranges, job roles, satisfaction levels, gender, and total experience.
 
